@@ -97,7 +97,7 @@
  h1, h2, h3, h4, h5, h6,
  .h01, .h02, .h03, .h04, .h05, .h06 {
    font-family: "Open Sans","Raleway", Microsoft JhengHei, sans-serif,"montserrat-bold", sans-serif;
-   color: #151515;
+   color: #07617d;
    font-style: normal;
    text-rendering: optimizeLegibility;
    margin-bottom: 2.1rem;
@@ -2484,11 +2484,11 @@
    /*margin: 0 0 5.4rem 0;*/
    padding: 0;
    font-size: 1.5rem;
-   color: rgba(255, 255, 255, 0.4);
-   background: #124e78;
+   color: #07617d;
+   background: #b9e3c5;
  }
  footer a, footer a:visited {
-   color: #FFFFFF;
+   color: #07617d;
  }
  footer a:hover, footer a:focus {
    color: #f9a828;
@@ -2497,7 +2497,7 @@
    max-width: 1024px;
  }
  footer h4.h05 {
-   color: #FFFFFF;
+   color: #114e78;
    position: relative;
    padding-bottom: 1.2rem;
  }
@@ -2506,7 +2506,7 @@
    content: "";
    width: 100px;
    height: 1px;
-   background-color: rgba(255, 255, 255, 0.1);
+   background-color:#114e78;
    position: absolute;
    bottom: 0;
    left: 0;
@@ -2518,7 +2518,7 @@
    padding-top: 5.6rem;
    padding-bottom: 3rem;
    padding-left: 10rem;
-   background: #124e78;
+   background: #b9e3c5;
  }
  .footer-main ul {
    font-size: 1.5rem;
@@ -2529,7 +2529,7 @@
    padding-left: 0;
  }
  .footer-main ul a, .footer-main ul a:visited {
-   color: rgba(255, 255, 255, 0.4);
+   color: #07617d;
  }
  .footer-main ul a:hover, .footer-main ul a:focus {
    color: #FFFFFF;
@@ -2795,7 +2795,7 @@
  
  #schedule .schedule-item p {
    font-size: 16px;
-   color: #666;
+   color: #708090;
    margin-bottom: 0;
  }
  
@@ -2809,58 +2809,61 @@
  }
  
  
- /*others service section css*/
- .othersservice{
-     background: #111111;
-     padding: 60px 0 60px 0;
- }
- 
- #othersservice .section-header h2 {
-     font-size: 4.4rem;
-     font-family: "Open Sans","Raleway", Microsoft JhengHei, sans-serif,"montserrat-bold", sans-serif;
-     text-transform: uppercase;
-     text-align: center;
-     font-weight: 700;
-     margin-bottom: 10px;
-     line-height: 2.375;
-     color: #FFFFFF;
- }
- 
- .main_othersservice_area{}
- .othersservice .single_othersservice {
-     margin-bottom:30px;
-     margin-top:20px;
-     display: inline-block;
-     width:100%;
- 
- }
- 
- .othersservice .single_othersservice .single_othersservice_icon{
-   color: #fff;
-   margin-bottom: 10px;
- }
- .othersservice .single_othersservice .single_othersservice_icon h4 i{
-     color:#797979;
-     font-size:3rem;
-     background: url(../images/iconbg2.png) no-repeat center center;
-     width:64px;
-     height:65px;
-     line-height: 65px;
-     text-align: center;  
-     margin-right: 10px;
-     transition: 0.6s; 
- }
- 
- 
- .othersservice .single_othersservice:hover .single_othersservice_icon h4 i{
-     background: url(../images/iconbgh2.png) no-repeat center center; 
-     color:#fff;
- }
- .othersservice .single_othersservice .single_othersservice_content p{
-   color: #fff;
-   font-size: 1.5rem;
-   margin-bottom: 5px;
- }
+  /*others service section css*/
+  .othersservice{
+    background: #000;
+    padding: 60px 0 60px 0;
+}
+
+
+
+#othersservice .section-header h2 {
+    font-size: 4.4rem;
+    font-family: "Open Sans","Raleway", Microsoft JhengHei, sans-serif,"montserrat-bold", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 2.375;
+    color: #ff8e24;
+}
+
+.main_othersservice_area{}
+.othersservice .single_othersservice {
+    margin-bottom:30px;
+    margin-top:20px;
+    display: inline-block;
+    width:100%;
+
+}
+
+.othersservice .single_othersservice .single_othersservice_icon{
+  color: #fff;
+  margin-bottom: 10px;
+}
+.othersservice .single_othersservice .single_othersservice_icon h4 i{
+    color:#797979;
+    font-size:3rem;
+    background: url(../images/iconbg2.png) no-repeat center center;
+    width:64px;
+    height:65px;
+    line-height: 65px;
+    text-align: center;  
+    margin-right: 10px;
+    transition: 0.6s; 
+}
+
+
+.othersservice .single_othersservice:hover .single_othersservice_icon h4 i{
+    background: url(../images/iconbgh2.png) no-repeat center center; 
+    color:#fff;
+}
+.othersservice .single_othersservice .single_othersservice_content p{
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
  
  
  /* Team section css */
@@ -3363,7 +3366,7 @@
  --------------------------------------------------------------*/
  
  #why-us {
-   background: #124e78;
+   background: #b8e3c5;
    padding: 60px 0 60px 0;
  }
  
@@ -3373,7 +3376,7 @@
      text-align: center;
      font-weight: 700;
      margin-bottom: 10px;
-     color: #FFFFFF;
+     color: #07617d;
      line-height: 2.5;
  }
  
@@ -3384,19 +3387,19 @@
      text-align: center;
      font-weight: 700;
      margin-bottom: 30px;
-     color: #FFFFFF;
+     color: #07617d;
      line-height: 1.5;
  }
  
  #why-us .card {
-   background: #124e78;
+   background: #b8e3c5;
    border-color: #FFFFFF;
    border-width: medium;
    border-radius: 15px;
    margin: 0 5px;
    padding: 15px 0;
    text-align: center;
-   color: #fff;
+   color: #07617d;
    transition: 0.3s ease-in-out;
    height: 100%;
  }
@@ -3415,7 +3418,7 @@
  
  #why-us .card p {
    font-size: 15px;
-   color: #FFFFFF;
+   color: #07617d;
    opacity: 80%;
  }
  
